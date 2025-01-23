@@ -26,3 +26,17 @@ Sensitivity, PPV, MCC and F1-score. These models are based on traditional machin
 learning approaches but we also worked with Eternafold, a specific machine learning model
 for predicting RNA molecule structures, these types of models are pretrained models used
 for RNA and other molecules.
+
+Key Steps:
+● Sequence Input: DNA sequences obtained from Kaggle.
+● Exploratory Data analysis
+● Prediction Algorithm: The computational tools Random Forest and Eternafold.
+
+Used Parameters
+The parameters used during the prediction process were:
+1. Sensitivity: measures proportion of TP and FP + FN.
+2. PPV: Positive Predictive Value measures proportion of TP out of all positive
+predictions made by the model.
+3. Matthews Correlation Coefficient MCC: takes into account TP, TN, FP AND FN.
+4. F-measure (F1-score): is the harmonic mean of precision and recall, in RNA
+structure prediction it helps evaluate the overall performance of the model.
